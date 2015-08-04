@@ -13,8 +13,8 @@ Use the script for copying the images and videos for example external backup dri
   Files on the <pathFrom> must be on the one level - subfolders aren't suppoerted
 ## pathTo
   Path to the  folder where the pathFrom folder contents will be copied.
-  The structure of the pathTo folder is generated as <year>/<month>_<monthDesc> like:
   
 # Organizing logic
+The structure of the pathTo folder is generated as year/month.
 * looking the picture taken date --> year is 2015, month is 7 --> copied the file to the folder 2015/07_heina/<file>
 * if date taken doesn't found, using file last saved date  
